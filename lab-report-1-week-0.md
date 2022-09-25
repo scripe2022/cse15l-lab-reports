@@ -1,1 +1,2 @@
 ![Image](https://scripe2022.github.io/cse15l-lab-reports/src/lab0.png)
+![Image](https://scripe2022.github.io/cse15l-lab-reports/src/figure 3.png)
