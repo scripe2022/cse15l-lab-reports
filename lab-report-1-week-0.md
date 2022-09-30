@@ -19,7 +19,7 @@ Then enter the password:
 ![](https://scripe2022.github.io/cse15l-lab-reports/src/yuhang_lab1_1.png)
 To return to localhost, type exit or press Ctrl-d
 
-## Trying Some Commands
+## 3. Trying Some Commands
 There are many useful commands under linux, the following are the most commonly used:
 `ls` - list directory contents
 `cd` - change the working directory
@@ -31,7 +31,7 @@ Usage of these commands:
 ![](https://scripe2022.github.io/cse15l-lab-reports/src/yuhang_lab1_2.png)
 Under Linux, `/` represents the root directory, and `~` represents the Home directory (ie, the user directory), `./` refers to the current directory, `../` refers to the previous directory.
 
-## Moving Files with scp
+## 4. Moving Files with scp
 scp is a command to transfer files between servers. Similar to the cp command, scp can also use most of the optional parameters of the cp command, such as -r to transfer the directory.
 For example, if you want to transfer WhereAmI.java in the local ~/Desktop/ directory to the ~/ directory of the server, the command is:
 `scp ~/Desktop/WhereAmI.java cs15lfa22jp@ieng6.ucsd.edu:~/`
@@ -39,7 +39,7 @@ For example, if you want to transfer WhereAmI.java in the local ~/Desktop/ direc
 Like cp, scp also overwrites files!
 ![](https://scripe2022.github.io/cse15l-lab-reports/src/yuhang_lab1_4.png)
 
-## Setting an SSH Key
+## 5. Setting an SSH Key
 ssh can do passwordless login via key.
 Asymmetric encryption uses an algorithm to generate a pair of keys, including a public key and a private key. Encryption with one key can be decrypted with the other key. When in use, the party generating the key keeps the private key and makes the public key public, and any ciphertext encrypted using the public key can be decrypted by its own private key.
 A key pair can be generated via the `ssh-keygen` command:
@@ -49,7 +49,7 @@ The usage of ssh-add is described in the lab1 guide, but this seems to be the co
 `~/.ssh/authrized_keys` stores the public keys of all authorized key pairs, just add the local public key to the server's authrized_keys. If the server does not have this file or the ~/.ssh/ directory, you need to create them.
 ![](https://scripe2022.github.io/cse15l-lab-reports/src/yuhang_lab1_6.png)
 
-## Optimizing Remote Running
+## 6. Optimizing Remote Running
 If you want to manage multiple servers, for example, you want to view the log of each server, or execute a script on each server, then remote running is very useful.
 ![](https://scripe2022.github.io/cse15l-lab-reports/src/yuhang_lab1_7.png)
 Although the ssh connection is still required, there is no need to wait for a successful login before entering the command.
