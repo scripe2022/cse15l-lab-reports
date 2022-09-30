@@ -44,6 +44,7 @@ ssh can do passwordless login via key.
 Asymmetric encryption uses an algorithm to generate a pair of keys, including a public key and a private key. Encryption with one key can be decrypted with the other key. When in use, the party generating the key keeps the private key and makes the public key public, and any ciphertext encrypted using the public key can be decrypted by its own private key.
 A key pair can be generated via the `ssh-keygen` command:
 ![](https://scripe2022.github.io/cse15l-lab-reports/src/yuhang_lab1_5.png)
+
 If no path is specified, the generated key pair will be saved in the ~/.ssh/ directory.
 The usage of ssh-add is described in the lab1 guide, but this seems to be the command of the openssh client, which I use in the lab. I would like to introduce a more general approach:
 `~/.ssh/authrized_keys` stores the public keys of all authorized key pairs, just add the local public key to the server's authrized_keys. If the server does not have this file or the ~/.ssh/ directory, you need to create them.
