@@ -53,4 +53,5 @@ The usage of ssh-add is described in the lab1 guide, but this seems to be the co
 ## 6. Optimizing Remote Running
 If you want to manage multiple servers, for example, you want to view the log of each server, or execute a script on each server, then remote running is very useful:  
 ![](https://scripe2022.github.io/cse15l-lab-reports/src/yuhang_lab1_7.png)
+
 Although the ssh connection is still required, there is no need to wait for a successful login before entering the command.
