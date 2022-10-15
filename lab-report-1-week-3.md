@@ -47,7 +47,7 @@ This is also not very strict, because a request can have many parameters. For ex
 But this is the simplest implementation.
 
 ## 3. root and search
-The root and search is similar to the implementation of directory and add.
+The root and search is similar to the implementation of directory and add.  
 ![](src/yuhang_lab2_3.png)  
 ![](src/yuhang_lab2_4.png)  
 
