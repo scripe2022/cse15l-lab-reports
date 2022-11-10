@@ -53,3 +53,5 @@ So my experience is, write locally and upload, or write directly on the server, 
 
 If the project can be compiled, run and debugged locally, then I will choose to write the code locally, and then upload it to the server for testing after completing each part.  
 If the project contains binaries that cannot be linked locally and cannot be compiled, run and debugged, then I will go directly to the server.
+
+(My biggest anxiety and fear comes from not being able to compile and run, like handwriting code on the exam)
