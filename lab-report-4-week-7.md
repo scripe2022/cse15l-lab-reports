@@ -4,7 +4,7 @@
 In `DocSearchServer.java`, change the name of the `start` parameter of `getFiles`, and all of its uses, to instead be called `base`.
 
 `:` `1` `2` `,` `3` `0` `s` `/` `\` `<` `s` `t` `a` `r` `t` `\` `>` `/` `b` `a` `s` `e` `/` `g` `I` `<Enter>`
-
+/startENTER>
 ### (1). Potential problems
 1. What we want to modify is the block scoped variable in the `getFiles` method, and direct replacement may modify other methods or global variable.
 2. Direct replacement may modify part of the word, such as `int startedNum` will be changed to `int baseedNum`
