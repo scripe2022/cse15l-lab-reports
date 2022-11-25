@@ -95,6 +95,10 @@ standard error:
 ```bash
 Cloning into 'submission'...
 ```
+exit code:
+```
+0
+```
 
 ### 4. clone successful?
 ```bash
@@ -123,6 +127,16 @@ In this example the file exists.
 ### 6. compile
 ```bash
 javac -cp $CPATH *.java 2> $COMPILEINFO
+```
+standard output: (empty)
+```bash
+```
+standard error: (empty)
+```bash
+```
+exit code:
+```
+0
 ```
 Compile the java file and redirect the standard error to the file.  
 In this example the compilation succeeds, both stdout and stderr are empty
@@ -170,9 +184,12 @@ Caused by: org.junit.ComparisonFailure: expected:<[a]> but was:<[b]>
 FAILURES!!!
 Tests run: 10,  Failures: 1
 ```
-
 standard error: (empty)
 ```bash
+```
+exit code:
+```
+0
 ```
 
 ### 9. summary
